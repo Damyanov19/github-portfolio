@@ -1,0 +1,13 @@
+/*Тази заявка извлича членовете на персонала и техните позиции, които са работили на конкретна смяна, като съединява таблиците на смяната 
+и персонала в колоната staff_id.*/
+SELECT staff.first_name, staff.last_name, staff.position
+FROM shift
+JOIN staff ON shift.staff_id = staff.staff_id
+WHERE shift.shift_id = @shift_id;
+
+
+/*Тази заявка извлича средното количество за всеки тип артикул, дори ако няма поръчки за някои артикули.*/
+SELECT item.item_type, AVG(order1.quantity)
+FROM item
+LEFT JOIN order1 ON item.item_id = order1.item_id
+GROUP BY item.item_type;
