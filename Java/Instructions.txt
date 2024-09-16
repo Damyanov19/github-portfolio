@@ -1,0 +1,23 @@
+To model a system (server) for processing scholarship documents. You have complete freedom in solving the specific problem, except for the minimum requirements below:
+
+In general, the documents contain:
+
+Name;
+Good luck;
+Income (per 1 family member);
+Faculty;
+Additional fields for your convenience.
+Documents (requests) to be stored in a queue. When a client (student) connects to the form processing server, the server declares its functionality:
+
+Apply for a Success Scholarship;
+Apply for a special scholarship;
+The document is sent to the student office. From there they decide whether the candidate meets the necessary conditions. 2 secretaries work in the office. Each of them takes a selected form and accordingly the form is reported in the system as taken, respectively locked - it is removed from the queue of forms waiting for approval.
+
+CONDITIONS FOR RECEIVING A SCHOLARSHIP:
+
+A success scholarship is awarded to all students with a GPA above 5 and 50, and a corresponding income of a family member - below BGN 500.
+A special scholarship is awarded to all students with a GPA above 5.30 and an income per family member below BGN 300.
+Each student is eligible for a maximum of 5 Special Scholarships, provided they take a Success Scholarship and 4 Special Scholarships, provided they do not take a Success Scholarship.
+If everything is fine with the scholarship application, the secretary writes the form in a list of accepted applications, and if there is a problem - it is written in a list of incorrect applications.
+
+Note that the server must be multi-threaded to host more than one client (students or secretaries). Provide authorization - you have two types of users - students with rights to submit documents and secretaries - with rights to accept documents.
