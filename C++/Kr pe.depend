@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1702334267 source:c:\users\Георги\desktop\kr pe\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<cmath>
+	<algorithm>
+
+1702334618 source:c:\users\acer\desktop\kr pe\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<cmath>
+	<algorithm>
+
+1702334618 source:c:\users\acer\desktop\Курсова_работа_ПЕ\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<cmath>
+	<algorithm>
+
