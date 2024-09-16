@@ -1,0 +1,1 @@
+Write a database that stores information about the items offered by a restaurant (drinks, food). Keep information about the main ingredients, allergens, weight. To write a separate table in which to enter the orders made by the customers (to keep table number, order, waiter, date and time, etc.). Complete the tables with necessary information of your choice.
