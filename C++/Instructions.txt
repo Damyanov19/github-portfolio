@@ -1,0 +1,9 @@
+To compose a point class with member variables: h and y coordinates, name (*char). Class Methods:
+constructors, destructor. Create a circle class with member variables: coordinates of center(point), radius and color.
+Class methods: constructors, destructor, override << operation for circle visualization,
+determining the distance between the point and the center of the circle, redefining an operation -, so,
+that returns the face of the bisected circle.
+
+To compose a main function that creates several objects of class circle,
+outputs the circles in increasing order of the distance from the point to the centers of the circles.
+To test an operation –. Data to be stored in the file.
